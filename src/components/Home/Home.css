@@ -1,0 +1,64 @@
+/* Home.css */
+
+.full-screen-image {
+  background-image: url('https://media.istockphoto.com/id/1439425791/photo/digital-technology-software-development-concept-coding-programmer-working-on-laptop-with.webp?b=1&s=170667a&w=0&k=20&c=c0Q8u1Y5yFJCDxltBZd0RAn1g01Se6qCjZGS5q9XLZs=');
+  background-size: cover;
+  background-position: center;
+  height: 100vh; /* 100% of the viewport height */
+  margin: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;  /* Text color, change as needed */
+  margin-right: 15vh;
+  margin-left: 15vh;
+  border-radius: 15px;
+}
+
+.btn-left{
+  border: 1px solid transparent;
+  background: #5f63f2;
+  color: #fff;
+  -webkit-box-shadow: 0 10px 15px rgba(252,54,140,.15);
+  box-shadow: 0 10px 15px rgba(252,54,140,.15);
+
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 13px 25px;
+  margin: 5px;
+  height: 50px;
+  text-decoration: none;
+
+}
+
+.btn-right{
+  border: 1px solid transparent;
+  background: none;
+  /* color: #fff; */
+  -webkit-box-shadow: 0 10px 15px rgba(252,54,140,.15);
+  box-shadow: 0 10px 15px rgba(252,54,140,.15);
+  border: 2px solid blue;
+  border-radius: 25px;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 21px;
+  padding: 13px 25px;
+  margin: 5px;
+  height: 50px;
+  text-decoration: none;
+
+
+}
+
+
+.btn-rapper{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.home-rapper{
+  position: static;
+}

@@ -36,3 +36,40 @@
     transform: rotate(360deg);
   }
 }
+
+
+/* App.css */
+
+/* Existing styles */
+
+.sidebar.closed {
+  width: 0;
+  padding-right: 0;
+}
+
+.sidebar button {
+  display: none;
+}
+
+.sidebar.closed button {
+  display: block;
+}
+
+@media (max-width: 768px) {
+  .sidebar {
+    width: 100%;
+    position: static;
+  }
+
+  .sidebar button {
+    display: block;
+  }
+
+  .sidebar.closed button {
+    display: none;
+  }
+
+  .content {
+    margin-left: 0;
+  }
+}

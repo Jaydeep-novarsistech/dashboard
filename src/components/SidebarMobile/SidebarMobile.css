@@ -1,0 +1,16 @@
+/* SidebarMobile.css */
+.hide-sidebar {
+    display: none;
+  }
+  
+  .show-sidebar {
+    transition: width 0.5s, padding-right 0.5s;
+  }
+  
+  .toggle-button {
+    width: 100%;
+    padding: 10px;
+  }
+  
+  /* Add any additional styling as needed */
+  
